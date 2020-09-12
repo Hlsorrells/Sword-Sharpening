@@ -8,6 +8,8 @@
 }
 
 body {
+  font-size: x-large;
+  line-height: 150%;
 }
 
 header {
@@ -18,25 +20,51 @@ header {
 }
 
 section {
+  padding: 20px;
+  margin-bottom: 20px;
 }
 
 #left {
+  float: left;
+  background-color: #30948D;
+  width: 33.33%;
 }
 
 #middle {
+  float: left;
+  background-color: #9E1212;
+  width: 33.33%;
 }
 
 #right {
+  background-color: #30948D;
+  float: left;
+  width: 33.34%;
 }
 
 #full {
+  background-color: #394549;
+  width: 100%;
+  overflow: auto;
+  /* the overflow fixed the whitespace btwn floated sections and the "full" section */
+  /* clear: both; */
 }
 
 #division {
+  background-color: #6ea3da;
+  margin-top: 20px;
+  padding: 20px;
 }
 
 aside {
+  background-color: #a6b747;
+  float: left;
+  width: 33%;
+  height: 200px;
+  margin-left: 30px;
+  padding: 20px;
 }
 
 footer {
+  background-color: #ffa500;
 }
